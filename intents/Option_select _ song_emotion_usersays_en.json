@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0d235ca1-155d-4d97-a290-1f1ab26d4e63",
+    "data": [
+      {
+        "text": "Emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8b4d415-4bd8-407c-999c-502871b0f123",
+    "data": [
+      {
+        "text": "Song Emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed320dcb-936c-4522-a46a-8d0493e4e58b",
+    "data": [
+      {
+        "text": "song_emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

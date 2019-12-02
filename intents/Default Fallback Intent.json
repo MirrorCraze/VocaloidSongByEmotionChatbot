@@ -1,0 +1,59 @@
+{
+  "id": "42730f44-4c9a-4608-ad3e-7e327aae75cc",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "imageUrl": "https://cdn1.imggmi.com/uploads/2019/11/26/84ae0d3245d1cc8133de8ad8e8d4bdab-full.jpg"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Sumimasen. Wakarimasen desu. (Sorry, I don\u0027t understand ;-;) Please say \"hello\" or \"hi\" to me to start chatting with me!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that one more time?",
+            "I didn\u0027t get that. Can you repeat?",
+            "I missed that, say that again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

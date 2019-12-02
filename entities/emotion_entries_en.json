@@ -1,0 +1,64 @@
+[
+  {
+    "value": "Happy",
+    "synonyms": [
+      "Happy",
+      "Joyous",
+      "Cheerful",
+      "pleasant",
+      "good",
+      "cheerful",
+      "smile",
+      "satisfied"
+    ]
+  },
+  {
+    "value": "Sad",
+    "synonyms": [
+      "Sad",
+      "down",
+      "depressed",
+      "depress",
+      "unhappy",
+      "sorrowful",
+      "awful",
+      "bad"
+    ]
+  },
+  {
+    "value": "Surprised",
+    "synonyms": [
+      "Surprised",
+      "astonished",
+      "amazed",
+      "stunned",
+      "flabbergast"
+    ]
+  },
+  {
+    "value": "Disgust",
+    "synonyms": [
+      "Disgust",
+      "horror"
+    ]
+  },
+  {
+    "value": "Angry",
+    "synonyms": [
+      "Angry",
+      "furious",
+      "annoyed",
+      "raged",
+      "outraged"
+    ]
+  },
+  {
+    "value": "Fear",
+    "synonyms": [
+      "Fear",
+      "terror",
+      "panic",
+      "dread"
+    ]
+  }
+]

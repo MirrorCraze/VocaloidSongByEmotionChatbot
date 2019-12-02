@@ -1,0 +1,55 @@
+[
+  {
+    "id": "605e4ea2-7358-4c60-a837-745431cc972f",
+    "data": [
+      {
+        "text": "Suggest new song for mood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b654a48a-6f69-4543-a765-f46a509a8a18",
+    "data": [
+      {
+        "text": "Suggest new song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08df0be6-bb51-48eb-aa20-fe56654191fb",
+    "data": [
+      {
+        "text": "Suggest",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " song",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f68323c-bcbd-48eb-93d2-d351bb1b1b87",
+    "data": [
+      {
+        "text": "song_suggest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

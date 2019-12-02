@@ -1,0 +1,44 @@
+{
+  "id": "6d40291f-177d-4277-bb23-c1a70f7f9cbe",
+  "name": "Option_select : suggest_song",
+  "auto": true,
+  "contexts": [
+    "options_select"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "options_select",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Option_selectsuggest_song-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Hi! Wakarimashita! Can I get a name of your song?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

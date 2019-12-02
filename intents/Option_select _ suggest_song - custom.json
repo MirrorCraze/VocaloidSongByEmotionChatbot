@@ -1,0 +1,37 @@
+{
+  "id": "a09d1a88-505c-46cc-9798-182792ac979b",
+  "parentId": "6d40291f-177d-4277-bb23-c1a70f7f9cbe",
+  "rootParentId": "6d40291f-177d-4277-bb23-c1a70f7f9cbe",
+  "name": "Option_select : suggest_song - custom",
+  "auto": true,
+  "contexts": [
+    "Option_selectsuggest_song-followup",
+    "options_select"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Option_selectsuggest_song.Option_selectsuggest_song-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "55a59852-44e2-4840-b01b-0a11f58da5a5",
+  "name": "Option_select : about",
+  "auto": true,
+  "contexts": [
+    "options_select"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Watashiwa Hatsune Miku! I am a Vocaloid software voicebank developed by the Crypton Future Media. I was released on 31 of August in 2007. My original Illustrator is KEI, and my original library is V2."
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "https://media.giphy.com/media/SSF8fNvoVLPKibmlrG/giphy.gif"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you ask me what am I doing here, actually, I am a conversational Miku Chatbot developed in the purpose of suggesting the song. Depends on the emotions you type in, the most appropriate vocaloid songs will be proposed to you as in the forms of the links."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

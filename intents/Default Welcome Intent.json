@@ -1,0 +1,90 @@
+{
+  "id": "63ea007d-6978-41d1-92e1-966470329fa9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "options_select",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "https://media.giphy.com/media/Stp6ttsjRhXIRf63gc/giphy.gif"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Ohayo~  Watashi Hatsune Miku desu👋 (Hello! My name is Hatsune Miku!) I can recommend you some songs (sing by me and my Vocaloid family!) based on the mood of the songs~"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Please select options~",
+          "imageUrl": "https://cdn1.imggmi.com/uploads/2019/11/26/84ae0d3245d1cc8133de8ad8e8d4bdab-full.jpg",
+          "buttons": [
+            {
+              "text": "Find songs by emotion",
+              "postback": "song_emotion"
+            },
+            {
+              "text": "Suggest songs",
+              "postback": "song_suggest"
+            },
+            {
+              "text": "About",
+              "postback": "about"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Hello"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

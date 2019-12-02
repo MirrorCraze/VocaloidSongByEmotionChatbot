@@ -1,0 +1,48 @@
+{
+  "id": "0a5bba6c-2a89-40c0-b787-dc81dfbf10aa",
+  "name": "Song_emotion:MoodSelect",
+  "auto": true,
+  "contexts": [
+    "mood_select",
+    "options_select"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_vid",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "03ca77a1-17b3-40fa-924d-c822c7944e06",
+          "required": false,
+          "dataType": "@emotion",
+          "name": "emotion",
+          "value": "$emotion",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+{
+  "description": "Chatbot based on the Vocaloid singer Hatsune Miku. She can suggest you Vocaloid (mainly Miku herself) song, talk about herself and weather! (More \n\nThe bot still in development. This is NOT an official project.",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "hatsune-miku-chatbot-project-q",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": false,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Hong_Kong",
+  "webhook": {
+    "url": "https://us-central1-hatsune-miku-chatbot-project-q.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [
+    "projects/hatsune-miku-chatbot-project-q/knowledgeBases/MTc3NjczNzEyMzIwNjk1NTAwODA"
+  ],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

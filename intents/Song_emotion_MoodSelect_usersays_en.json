@@ -1,0 +1,114 @@
+[
+  {
+    "id": "aaa62dd8-b4ad-4494-b545-72c257d56c51",
+    "data": [
+      {
+        "text": "Sadness",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": true
+      },
+      {
+        "text": " is my feeling right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5cf70fd-0af2-4e9e-9f2b-d30bd7e7a046",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "furious",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac693a9a-f775-4e23-90ed-b82cbd597d2d",
+    "data": [
+      {
+        "text": "give me ",
+        "userDefined": false
+      },
+      {
+        "text": "happy",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": false
+      },
+      {
+        "text": " song of Hatsune Miku",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c9ccfd4-4c56-40e5-8bbd-1e0062960cb3",
+    "data": [
+      {
+        "text": "Some ",
+        "userDefined": false
+      },
+      {
+        "text": "joyous",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": false
+      },
+      {
+        "text": " song, please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88384aba-6a51-4c84-8c7d-10d6b0263f65",
+    "data": [
+      {
+        "text": "furious",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71e6a945-2f62-4432-8b00-ac7d8004802f",
+    "data": [
+      {
+        "text": "I feel ",
+        "userDefined": false
+      },
+      {
+        "text": "sad",
+        "alias": "emotion",
+        "meta": "@emotion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

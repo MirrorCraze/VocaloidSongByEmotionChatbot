@@ -1,0 +1,47 @@
+{
+  "id": "b1409439-6d50-4b92-b9a8-5a747ad9ac97",
+  "name": "Option_select : song_emotion",
+  "auto": true,
+  "contexts": [
+    "options_select"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "mood_select",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "options_select",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sure! What is the mood you wanna find?",
+            "Well received! What\u0027s your mood then~"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
