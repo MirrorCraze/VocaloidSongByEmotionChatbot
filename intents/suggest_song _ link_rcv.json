@@ -1,28 +1,39 @@
 {
-  "id": "4133f315-673e-48df-87de-3e59b88a4af5",
-  "name": "suggest_song : song_name_rcv",
+  "id": "415a50e0-4ec0-4e67-b009-df8e0ac6840a",
+  "name": "suggest_song : link_rcv",
   "auto": true,
   "contexts": [
-    "song_rcv",
-    "options_select"
+    "link_rcv"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "link_rcv",
+          "name": "emotion_rcv",
           "parameters": {},
           "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "f90eebb8-2550-4122-a0c5-f6998b4a5d5b",
+          "id": "1a17d3cc-a419-4187-b9e0-c84b4b2744e7",
+          "required": false,
+          "dataType": "@sys.url",
+          "name": "url",
+          "value": "$url",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b7f6a388-173f-4c60-85f1-f02cd20babc3",
           "required": false,
           "dataType": "@sys.any",
-          "name": "song_name",
-          "value": "$song_name",
+          "name": "name",
+          "value": "#link_rcv.name",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -35,7 +46,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Song name received~ Song : $song_name \n\nCan I have the link?"
+          "speech": "What\u0027s the mood of this song then?"
         }
       ],
       "defaultResponsePlatforms": {},

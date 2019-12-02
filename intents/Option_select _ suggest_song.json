@@ -10,14 +10,14 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "options_select",
+          "name": "song_rcv",
           "parameters": {},
           "lifespan": 1
         },
         {
-          "name": "Option_selectsuggest_song-followup",
+          "name": "options_select",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 1
         }
       ],
       "parameters": [],

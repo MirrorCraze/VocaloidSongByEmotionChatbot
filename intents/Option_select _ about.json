@@ -37,6 +37,12 @@
           "lang": "en",
           "condition": "",
           "speech": "If you ask me what am I doing here, actually, I am a conversational Miku Chatbot developed in the purpose of suggesting the song. Depends on the emotions you type in, the most appropriate vocaloid songs will be proposed to you as in the forms of the links."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "My creators create me as a group project of CityU GE2340 \"AI : Past, Present and Future\" class\nThey consist of 3 people.\n1. Phudis Dawieang (55411086)\n2. Sai Navyanth VOBBILISETTY (55357700)\n3. Ahn Dohyun (55907842)"
         }
       ],
       "defaultResponsePlatforms": {},

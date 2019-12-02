@@ -52,7 +52,7 @@
               "postback": "song_emotion"
             },
             {
-              "text": "Suggest songs",
+              "text": "Suggest new songs",
               "postback": "song_suggest"
             },
             {

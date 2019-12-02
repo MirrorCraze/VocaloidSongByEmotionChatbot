@@ -1,0 +1,76 @@
+{
+  "id": "a239051f-0a08-4f66-87ed-7c67f72abfb5",
+  "name": "suggest_song : emotion_rcv",
+  "auto": true,
+  "contexts": [
+    "emotion_rcv"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f7dfc0af-5b2d-4b90-b050-ff802742f2bc",
+          "required": false,
+          "dataType": "@emotion",
+          "name": "emotion",
+          "value": "$emotion",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5b7587f1-9400-4bca-851f-cf1552951277",
+          "required": false,
+          "dataType": "@sys.url",
+          "name": "url",
+          "value": "#emotion_rcv.url",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3ddb0f7b-23c6-409e-9ba0-556d908c9915",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "#emotion_rcv.name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Let Miku saves that in my memory :)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Save finished!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
